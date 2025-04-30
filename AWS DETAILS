@@ -1,2 +1,29 @@
 The website is hosted and operated on Amazon Web Services (AWS) using an EC2 instance of type t2.micro, which provides a balance of compute, memory, and network resources for low-traffic applications. This instance, named GRAPH-PROJECT, is responsible for running the web application and ensuring its availability. The choice of a t2.micro instance makes it a cost-effective solution for development, testing, or lightweight production workloads.
 
+Steps to run  an image of the website using docker in aws server website:
+
+Running Docker on the Instance:
+
+Step 1: Select and connect to the instance
+
+Choose your target instance (e.g., AWS EC2, Azure VM).
+which is Graph Project ec2 instance
+
+Step 2: Navigate to the project directory
+
+Go to the directory where the project is located :
+ubuntu@ip-172-31-16-101:~/AirIndexProject/be
+
+Step 3: Step 3: Checking the Docker containers:
+ubuntu@ip-172-31-16-101:~/AirIndexProject/be$ docker ps
+CONTAINER ID   IMAGE                 COMMAND                  CREATED      STATUS          PORTS                                         NAMES
+282464762e52   riju689/repo:latest   "uvicorn app.main:ap…"   4 days ago   Up 20 seconds   0.0.0.0:8000->8000/tcp, [::]:8000->8000/tcp   aqi_prj-aqi-be
+d1b733128a46   postgres:latest       "docker-entrypoint.s…"   4 days ago   Up 20 seconds   0.0.0.0:5432->5432/tcp, [::]:5432->5432/tcp   aqi_postgres
+
+Step 4: Run the Docker containers
+the command for running the docker is docker compose up -d
+
+Step 5: Checking the website 
+The website is ready to launch and can run without any issue , when docker image is runned succesfully without any issue.
+
+
