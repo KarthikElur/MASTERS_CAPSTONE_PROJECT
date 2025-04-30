@@ -4,6 +4,8 @@ This project proposes a scalable and interactive AQI prediction system that inte
 
 Keywords—Air Quality Index, Machine Learning, Cloudflare Workers, FastAPI, React, Leaflet, Firebase, Docker
 
+Link of the website: sensormetrics.pages.dev
+
 
 ![image](https://github.com/user-attachments/assets/5ae58a4e-d0fb-4504-b427-297146469c59)
 
