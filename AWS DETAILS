@@ -1,0 +1,2 @@
+The website is hosted and operated on Amazon Web Services (AWS) using an EC2 instance of type t2.micro, which provides a balance of compute, memory, and network resources for low-traffic applications. This instance, named GRAPH-PROJECT, is responsible for running the web application and ensuring its availability. The choice of a t2.micro instance makes it a cost-effective solution for development, testing, or lightweight production workloads.
+
