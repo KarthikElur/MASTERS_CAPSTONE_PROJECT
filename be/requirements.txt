@@ -1,0 +1,16 @@
+fastapi==0.100.0
+uvicorn==0.22.0
+sqlalchemy==2.0.20
+alembic==1.11.1
+asyncpg==0.30.0  # Async driver for PostgreSQL (instead of psycopg2-binary)
+pydantic>=2.0.0,<3.0.0
+pydantic[email]
+pydantic-settings
+python-dotenv==1.0.0
+passlib[bcrypt]==1.7.4
+pyjwt==2.8.0
+httpx==0.25.0
+pytest==7.4.0
+pytest-asyncio==0.21.0
+google-auth
+requests

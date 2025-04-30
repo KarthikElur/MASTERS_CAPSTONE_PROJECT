@@ -1,0 +1,10 @@
+{
+  "PROJECT_NAME": "AQI BE",
+  "DATABASE_URL": "postgresql+asyncpg://aqi_be_admin:abbe232kjaHJsaKKJ2@host.docker.internal:5432/aqi_be_db",
+  "JWT_SECRET_KEY": "your_secret_key",
+  "JWT_ALGORITHM": "HS256",
+  "POSTGRES_USER": "aqi_be_admin",
+  "POSTGRES_PASSWORD": "abbe232kjaHJsaKKJ2",
+  "POSTGRES_DB": "aqi_be_db",
+  "GOOGLE_CLIENT_ID": "AIzaSyBAGD84QXJg3cfRy-gqoP0RofPqZXyFR9I"
+}
